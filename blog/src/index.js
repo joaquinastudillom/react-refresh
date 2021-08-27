@@ -7,10 +7,7 @@ import thunk from "redux-thunk";
 import App from "./components/App";
 import reducers from "./reducers/index";
 
-const composeEnhancers =
-  process.env.NODE_ENV === "development"
-    ? window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__
-    : null || compose;
+const composeEnhancers = (window as any).__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
 const store = createStore(reducers, composeEnhancers(applyMiddleware(thunk)));
 
