@@ -1,0 +1,30 @@
+{
+  "streams": [
+    {
+      "title": "My stream",
+      "description": "This is a great Stream!",
+      "id": 1
+    },
+    {
+      "title": "My test stream",
+      "description": "Just for testing,...",
+      "id": 2
+    },
+    {
+      "title": "my test for history",
+      "description": "test",
+      "id": 3
+    },
+    {
+      "title": "New Stream",
+      "description": "Created with Refactoring edited",
+      "id": 4
+    },
+    {
+      "title": "Second example",
+      "description": "test uno",
+      "userId": "101793376137404042949",
+      "id": 6
+    }
+  ]
+}
